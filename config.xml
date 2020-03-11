@@ -14,6 +14,7 @@
   </description>
 	
   <preference name="android-minSdkVersion" value="17" />
+  <preference name="loadUrlTimeoutValue" value="60000" />
 
   <author href="https://vaayuja.com" email="info@vaayuja.com">
       Vaayuja
