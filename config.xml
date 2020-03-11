@@ -24,7 +24,7 @@
 	
     <gap:splash src="splash.png" />
     
-    <content src="http://www.farmpick.co.in" />
-    <access origin="http://www.farmpick.co.in" subdomains="true" />
+    <content src="http://farmpick.co.in" />
+    <access origin="*" subdomains="true" />
 
 </widget>
