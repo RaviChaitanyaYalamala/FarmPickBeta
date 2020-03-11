@@ -12,6 +12,8 @@
   <description>
       Shopping App
   </description>
+	
+  <preference name="android-minSdkVersion" value="17" />
 
   <author href="https://vaayuja.com" email="info@vaayuja.com">
       Vaayuja
