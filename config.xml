@@ -1,25 +1,27 @@
-<?xml version='1.0' encoding='utf-8'?>
-<widget id="com.farmpickbeta.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    
-    <name>FarmPick Beta</name>
-    <description>Latest from the Last Word on Football</description>
-    <author email="info@vaayuja.com" href="http://www.vaayuja.com">Vaayuja</author>
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.farmpick.beta"
+    versionCode = "10"
+    version     = "1.0.0" >
 
-    <preference name="phonegap-version" value="9.0.0" />
-    <feature name="http://api.phonegap.com/1.0/device" />
-    
-    <preference name="orientation" value="portrait" />       <!-- all: default means both landscape and portrait are enabled -->
-    
-    <gap:plugin name="org.apache.cordova.splashscreen" />
-    <gap:plugin name="org.apache.cordova.inappbrowser" />
-    <gap:plugin name="org.apache.cordova.dialogs" />
-    <gap:plugin name="org.apache.cordova.network-information" />
-    <gap:plugin name="com.simplec.plugins.localnotification" />
+<!-- versionCode is optional and Android only -->
 
-    <icon src="icon.png" />
+  <name>FarmPick Beta</name>
+
+  <description>
+      Shopping App
+  </description>
+
+  <author href="https://vaayuja.com" email="info@vaayuja.com">
+      Vaayuja
+  </author>
+	
+  <icon src="icon.png" />
 	
     <gap:splash src="splash.png" />
     
     <content src="http://www.farmpick.co.in" />
     <access origin="*" subdomains="true" />
+
 </widget>
